@@ -1,0 +1,125 @@
+@font-face {
+  font-family: "Fredoka";
+  src: url(../fonts/Fredoka/static/Fredoka-Bold.ttf);
+}
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: "HindMadurai";
+  src: url(../fonts/Hind_Madurai/HindMadurai-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+li,
+a {
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1240px;
+}
+
+body header {
+  background-color: #fbf0f4;
+}
+body header nav {
+  display: flex;
+  align-items: center;
+  margin-bottom: 96px;
+}
+body header nav a .header-logo {
+  margin-right: 260px;
+}
+body header nav .header-menu {
+  display: flex;
+  margin-right: 172px;
+}
+body header nav .header-menu li .header-menu-item {
+  margin-right: 40px;
+  color: #716162;
+  transition: 0.4s;
+  font-family: "Roboto";
+}
+body header nav .header-menu li .header-menu-item:hover {
+  color: #d23166;
+}
+body header nav .header-btn {
+  width: 165px;
+  height: 49px;
+  border-radius: 5px;
+  border: none;
+  background-color: #d23166;
+  color: #fafafa;
+  font-weight: 700;
+  font-family: "HindMadurai";
+}
+body header .Header-bottom {
+  display: flex;
+  align-items: center;
+}
+body header .Header-bottom .Header-bottom-text h2 {
+  font-family: "Roboto";
+  font-size: 14px;
+  color: #0f0101;
+  margin-bottom: 6px;
+}
+body header .Header-bottom .Header-bottom-text h1 {
+  color: #271919;
+  font-family: "Fredoka";
+  font-size: 57.33px;
+  width: 625px;
+  margin-bottom: 35px;
+}
+body header .Header-bottom .Header-bottom-text h1 span {
+  color: #d64474;
+}
+body header .Header-bottom .Header-bottom-text p {
+  width: 523px;
+  color: #6d6162;
+  margin-bottom: 45px;
+}
+body header .Header-bottom .Header-bottom-text .header-btn {
+  width: 165px;
+  height: 49px;
+  border-radius: 5px;
+  border: none;
+  background-color: #d23166;
+  color: #fafafa;
+  font-weight: 700;
+  font-family: "HindMadurai";
+}
+body main .container .section-1 .cards {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 62px;
+  margin-bottom: 50px;
+}
+body main .container .section-1 .cards .card {
+  font-family: "HindMadurai";
+  width: 250px;
+  height: 199px;
+  align-items: center;
+  border: 1px solid #f7f7f7;
+  padding-left: 26px;
+  padding-right: 26px;
+  padding-bottom: 27px;
+  padding-top: 33px;
+}
+body main .container .section-1 .cards .card img {
+  margin: auto;
+  padding-bottom: 24px;
+  padding-left: 75px;
+}
+body main .container .section-1 .cards .card h2 {
+  padding-bottom: 9px;
+}/*# sourceMappingURL=style.css.map */

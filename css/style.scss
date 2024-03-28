@@ -1,0 +1,137 @@
+@font-face {
+  font-family: "Fredoka";
+  src: url(../fonts/Fredoka/static/Fredoka-Bold.ttf);
+}
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: "HindMadurai";
+  src: url(../fonts/Hind_Madurai/HindMadurai-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li,
+a {
+  text-decoration: none;
+  list-style: none;
+}
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1240px;
+}
+body {
+  header {
+    background-color: #fbf0f4;
+    nav {
+      display: flex;
+      align-items: center;
+      margin-bottom: 96px;
+      a {
+        .header-logo {
+          margin-right: 260px;
+        }
+      }
+      .header-menu {
+        display: flex;
+        margin-right: 172px;
+        li {
+          .header-menu-item {
+            margin-right: 40px;
+            color: #716162;
+            transition: 0.4s;
+            font-family: "Roboto";
+            &:hover {
+              color: #d23166;
+            }
+          }
+        }
+      }
+      .header-btn {
+        width: 165px;
+        height: 49px;
+        border-radius: 5px;
+        border: none;
+        background-color: #d23166;
+        color: #fafafa;
+        font-weight: 700;
+        font-family: "HindMadurai";
+      }
+    }
+    .Header-bottom {
+      display: flex;
+      align-items: center;
+      .Header-bottom-text {
+        h2 {
+          font-family: "Roboto";
+          font-size: 14px;
+          color: #0f0101;
+          margin-bottom: 6px;
+        }
+        h1 {
+          color: #271919;
+          font-family: "Fredoka";
+          font-size: 57.33px;
+          width: 625px;
+          margin-bottom: 35px;
+          span {
+            color: #d64474;
+          }
+        }
+        p {
+          width: 523px;
+          color: #6d6162;
+          margin-bottom: 45px;
+        }
+        .header-btn {
+          width: 165px;
+          height: 49px;
+          border-radius: 5px;
+          border: none;
+          background-color: #d23166;
+          color: #fafafa;
+          font-weight: 700;
+          font-family: "HindMadurai";
+        }
+      }
+    }
+  }
+  main {
+    .container {
+      .section-1 {
+        .cards {
+          display: flex;
+          justify-content: space-evenly;
+          margin-top: 62px;
+          margin-bottom: 50px;
+          .card {
+            font-family: "HindMadurai";
+            width: 250px;
+            height: 199px;
+            align-items: center;
+            border: 1px solid #f7f7f7;
+            // margin-left: 39px;
+            padding-left: 26px;
+            padding-right: 26px;
+            padding-bottom: 27px;
+            padding-top: 33px;
+            img {
+              margin: auto;
+              padding-bottom: 24px;
+              padding-left: 75px;
+            }
+            h2 {
+              padding-bottom: 9px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
